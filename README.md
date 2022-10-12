@@ -13,8 +13,8 @@ The marketing campaigns are targeting inhabitants of specific cities, but unfort
 ## Tasks
 This project is split in several tasks, to facilitate your evaluation.
 1. Choose a framework among:
-    a- Camel (Java)
-    b- Bonobo (python)
+    - Camel (Java)
+    - Bonobo (python)
 
 2. Load the contacts.sql in the database (postgres is preferred or h2 for java users).
 
@@ -29,7 +29,7 @@ This project is split in several tasks, to facilitate your evaluation.
     '<td class="hero-subheader__title" style="font-size: 43px; font-weight: bold; padding: 80px 0 15px 0;" align="left">A special offer for you in your city of New York</td>'
 
     - If the current contact city field is ‘New York’
-    a. Put the resulting email file in the output folder “email-spool” (can be anywhere on your file system)
-    b. Prepare a daily html report of the email sent to what contact.
-    c. Make everything configurable (no hardcoded conf entries)
-    d. Make everything trackable (have the state of the contact processing; is it “selected for campaign”, “email ready”, “email sent”?) so that your pipeline will be able to not take the same contacts twice, even after a forceful stop.
+        - Put the resulting email file in the output folder “email-spool” (can be anywhere on your file system)
+        - Prepare a daily html report of the email sent to what contact.
+        - Make everything configurable (no hardcoded conf entries)
+        - Make everything trackable (have the state of the contact processing; is it “selected for campaign”, “email ready”, “email sent”?) so that your pipeline will be able to not take the same contacts twice, even after a forceful stop.
