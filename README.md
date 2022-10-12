@@ -13,7 +13,7 @@ You oversee developing a batch to send emails automatically for a company market
 This project is split in several tasks, to facilitate your evaluation.
 1. Choose a framework among:
     - Camel (Java)
-    - Bonobo (python)
+    - Bonobo (Python)
 
 2. Load the contacts.sql in the database (postgres is preferred or h2 for java users).
 
@@ -21,10 +21,10 @@ This project is split in several tasks, to facilitate your evaluation.
     - Read the contacts items from the database
     - For each contact selected (thanks to the campaign meta),  create an email body (html format) from the provided email template, each wildcard should be replaced by the appropriate contact info.
 
-    - Example: in the resulting file :
+    - Example:
+        - In the resulting file: <td class="hero-subheader__title" style="font-size: 43px; font-weight: bold; padding: 80px 0 15px 0;" align="left">A special offer for you in your city of ${city}</td>
         
-    - Will become:
-    '<td class="hero-subheader__title" style="font-size: 43px; font-weight: bold; padding: 80px 0 15px 0;" align="left">A special offer for you in your city of New York</td>'
+        - Will become: <td class="hero-subheader__title" style="font-size: 43px; font-weight: bold; padding: 80px 0 15px 0;" align="left">A special offer for you in your city of New York</td>
 
     - If the current contact city field is "New York" ->
         - Put the resulting email file in the output folder “email-spool” (can be anywhere on your file system)
