@@ -13,8 +13,8 @@ The marketing campaigns are targeting inhabitants of specific cities, but unfort
 ## Tasks
 This project is split in several tasks, to facilitate your evaluation.
 1. Choose a framework among:
-    a. Camel (Java)
-    b.	Bonobo (python)
+    a- Camel (Java)
+    b- Bonobo (python)
 
 2. Load the contacts.sql in the database (postgres is preferred or h2 for java users).
 
