@@ -1,4 +1,4 @@
-insert into contacts (contact_email, contact_first_name, contact_last_name, contact_address, contact_city, contact_country, contact_birthdate)
+insert into public.contacts (contact_email, contact_first_name, contact_last_name, contact_address, contact_city, contact_country, contact_birthdate)
 values  ('jbutt@gmail.com', 'James', 'Butt', '6649 N Blue Gum St', 'New Orleans', 'USA', '1972-09-15'),
         ('josephine_darakjy@darakjy.org', 'Josephine', 'Darakjy', '4 B Blue Ridge Blvd', 'Brighton', 'USA', '1978-03-12'),
         ('art@venere.org', 'Art', 'Venere', '8 W Cerritos Ave #54', 'Bridgeport', 'USA', '1977-12-26'),
