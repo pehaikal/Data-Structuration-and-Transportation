@@ -27,7 +27,7 @@ This project is split in several tasks, to facilitate your evaluation.
         - Will become: <td class="hero-subheader__title" style="font-size: 43px; font-weight: bold; padding: 80px 0 15px 0;" align="left">A special offer for you in your city of New York</td>
 
 - N.B: If the current contact city field is "New York" then:
-    - Put the resulting email file in the output folder "email-spool" (can be anywhere on your file system)
+    - Put the resulting email file in the output folder "email-spool" (can be anywhere on your file system).
     - Prepare a daily html report of the email sent to what contact.
-    - Make everything configurable (no hardcoded conf entries)
+    - Make everything configurable (no hardcoded conf entries).
     - Make everything trackable (have the state of the contact processing; Is it "selected for campaign", "email ready", "email sent" ?) so, your pipeline will be able to not take the same contacts twice, even after a forceful stop.
